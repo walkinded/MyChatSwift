@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4405F89C242154090032B690 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405F89B242154090032B690 /* ButtonFormView.swift */; };
+		4405F89E242169760032B690 /* StackView + Entension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405F89D242169760032B690 /* StackView + Entension.swift */; };
+		440A876D241F6A7D00A79A5E /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A876C241F6A7D00A79A5E /* UIButton + Extension.swift */; };
+		440C7D532421275500B815FA /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C7D522421275500B815FA /* UIFont + Extension.swift */; };
+		440C7D552421299300B815FA /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C7D542421299300B815FA /* UIColor + Extension.swift */; };
+		440C7D592421445D00B815FA /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C7D582421445D00B815FA /* UILabel + Extension.swift */; };
+		440C7D5B2421467000B815FA /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C7D5A2421467000B815FA /* UIImageView + Extension.swift */; };
+		4410204D2430F5AD007CCE4C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410204C2430F5AD007CCE4C /* MainTabBarController.swift */; };
+		4410204F2430F620007CCE4C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410204E2430F620007CCE4C /* ListViewController.swift */; };
+		441020522430F8CE007CCE4C /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441020512430F8CE007CCE4C /* PeopleViewController.swift */; };
+		4410205A24349153007CCE4C /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410205924349153007CCE4C /* Bundle-Decodable.swift */; };
+		4410205D24349160007CCE4C /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 4410205B24349160007CCE4C /* waitingChats.json */; };
+		4410205E24349160007CCE4C /* activeChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 4410205C24349160007CCE4C /* activeChats.json */; };
+		441020612434A9DA007CCE4C /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441020602434A9DA007CCE4C /* ActiveChatCell.swift */; };
+		441020632434C5E0007CCE4C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441020622434C5E0007CCE4C /* GradientView.swift */; };
+		4412BAB624254D5200D04723 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4412BAB524254D5200D04723 /* SingUpViewController.swift */; };
+		4412BAB8242552DB00D04723 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4412BAB7242552DB00D04723 /* OneLineTextField.swift */; };
+		441C5576243F406E001DF5EE /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C5575243F406E001DF5EE /* WaitingChatCell.swift */; };
+		441C5578243F8F44001DF5EE /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C5577243F8F44001DF5EE /* SelfConfiguringCell.swift */; };
+		441C557B243F9675001DF5EE /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C557A243F9675001DF5EE /* SectionHeader.swift */; };
+		444744D624264775001E992C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444744D524264775001E992C /* LoginViewController.swift */; };
 		4454237C241EAE4C008C34FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454237B241EAE4C008C34FB /* AppDelegate.swift */; };
 		4454237E241EAE4C008C34FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454237D241EAE4C008C34FB /* SceneDelegate.swift */; };
-		44542380241EAE4C008C34FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454237F241EAE4C008C34FB /* ViewController.swift */; };
-		44542383241EAE4C008C34FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44542381241EAE4C008C34FB /* Main.storyboard */; };
+		44542380241EAE4C008C34FB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454237F241EAE4C008C34FB /* AuthViewController.swift */; };
 		44542385241EAE51008C34FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44542384241EAE51008C34FB /* Assets.xcassets */; };
 		44542388241EAE51008C34FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44542386241EAE51008C34FB /* LaunchScreen.storyboard */; };
+		447895722428E6C7006F18AE /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447895712428E6C7006F18AE /* SetupProfileViewController.swift */; };
+		447895742428E9BB006F18AE /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447895732428E9BB006F18AE /* AddPhotoView.swift */; };
+		44ED0719242FDCDB00E37AB1 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED0718242FDCDB00E37AB1 /* SegmentedControl + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4405F89B242154090032B690 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		4405F89D242169760032B690 /* StackView + Entension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Entension.swift"; sourceTree = "<group>"; };
+		440A876C241F6A7D00A79A5E /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		440C7D522421275500B815FA /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		440C7D542421299300B815FA /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		440C7D582421445D00B815FA /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		440C7D5A2421467000B815FA /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		4410204C2430F5AD007CCE4C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4410204E2430F620007CCE4C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		441020512430F8CE007CCE4C /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		4410205924349153007CCE4C /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		4410205B24349160007CCE4C /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waitingChats.json; sourceTree = "<group>"; };
+		4410205C24349160007CCE4C /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activeChats.json; sourceTree = "<group>"; };
+		441020602434A9DA007CCE4C /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
+		441020622434C5E0007CCE4C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4412BAB524254D5200D04723 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		4412BAB7242552DB00D04723 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		441C5575243F406E001DF5EE /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
+		441C5577243F8F44001DF5EE /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		441C557A243F9675001DF5EE /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		444744D524264775001E992C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		44542378241EAE4C008C34FB /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4454237B241EAE4C008C34FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4454237D241EAE4C008C34FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4454237F241EAE4C008C34FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44542382241EAE4C008C34FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4454237F241EAE4C008C34FB /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		44542384241EAE51008C34FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44542387241EAE51008C34FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44542389241EAE51008C34FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447895712428E6C7006F18AE /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		447895732428E9BB006F18AE /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		44ED0718242FDCDB00E37AB1 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440C7D5C2421483D00B815FA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4410205C24349160007CCE4C /* activeChats.json */,
+				4410205B24349160007CCE4C /* waitingChats.json */,
+				440C7D542421299300B815FA /* UIColor + Extension.swift */,
+				440C7D5A2421467000B815FA /* UIImageView + Extension.swift */,
+				440C7D582421445D00B815FA /* UILabel + Extension.swift */,
+				440C7D522421275500B815FA /* UIFont + Extension.swift */,
+				4405F89D242169760032B690 /* StackView + Entension.swift */,
+				440A876C241F6A7D00A79A5E /* UIButton + Extension.swift */,
+				44ED0718242FDCDB00E37AB1 /* SegmentedControl + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		440C7D5D2421484700B815FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4410205924349153007CCE4C /* Bundle-Decodable.swift */,
+				447895732428E9BB006F18AE /* AddPhotoView.swift */,
+				4412BAB7242552DB00D04723 /* OneLineTextField.swift */,
+				441020622434C5E0007CCE4C /* GradientView.swift */,
+				4405F89B242154090032B690 /* ButtonFormView.swift */,
+				440C7D5C2421483D00B815FA /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4410204B2430F4D4007CCE4C /* Signin&Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4454237F241EAE4C008C34FB /* AuthViewController.swift */,
+				4412BAB524254D5200D04723 /* SingUpViewController.swift */,
+				444744D524264775001E992C /* LoginViewController.swift */,
+				447895712428E6C7006F18AE /* SetupProfileViewController.swift */,
+			);
+			path = "Signin&Auth";
+			sourceTree = "<group>";
+		};
+		441020502430F88B007CCE4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4410205F2434A9C0007CCE4C /* Cell */,
+				4410204C2430F5AD007CCE4C /* MainTabBarController.swift */,
+				4410204E2430F620007CCE4C /* ListViewController.swift */,
+				441020512430F8CE007CCE4C /* PeopleViewController.swift */,
+				441C557A243F9675001DF5EE /* SectionHeader.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4410205F2434A9C0007CCE4C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				441020602434A9DA007CCE4C /* ActiveChatCell.swift */,
+				441C5575243F406E001DF5EE /* WaitingChatCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		441C5579243F8F64001DF5EE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				441C5577243F8F44001DF5EE /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		4454236F241EAE4C008C34FB = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +173,10 @@
 			children = (
 				4454237B241EAE4C008C34FB /* AppDelegate.swift */,
 				4454237D241EAE4C008C34FB /* SceneDelegate.swift */,
-				4454237F241EAE4C008C34FB /* ViewController.swift */,
-				44542381241EAE4C008C34FB /* Main.storyboard */,
+				441020502430F88B007CCE4C /* Controllers */,
+				4410204B2430F4D4007CCE4C /* Signin&Auth */,
+				441C5579243F8F64001DF5EE /* Protocols */,
+				440C7D5D2421484700B815FA /* Extensions */,
 				44542384241EAE51008C34FB /* Assets.xcassets */,
 				44542386241EAE51008C34FB /* LaunchScreen.storyboard */,
 				44542389241EAE51008C34FB /* Info.plist */,
@@ -125,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4410205D24349160007CCE4C /* waitingChats.json in Resources */,
 				44542388241EAE51008C34FB /* LaunchScreen.storyboard in Resources */,
 				44542385241EAE51008C34FB /* Assets.xcassets in Resources */,
-				44542383241EAE4C008C34FB /* Main.storyboard in Resources */,
+				4410205E24349160007CCE4C /* activeChats.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +256,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44542380241EAE4C008C34FB /* ViewController.swift in Sources */,
+				4412BAB8242552DB00D04723 /* OneLineTextField.swift in Sources */,
+				440C7D532421275500B815FA /* UIFont + Extension.swift in Sources */,
+				441C557B243F9675001DF5EE /* SectionHeader.swift in Sources */,
+				441020632434C5E0007CCE4C /* GradientView.swift in Sources */,
+				44542380241EAE4C008C34FB /* AuthViewController.swift in Sources */,
 				4454237C241EAE4C008C34FB /* AppDelegate.swift in Sources */,
+				441020612434A9DA007CCE4C /* ActiveChatCell.swift in Sources */,
+				447895722428E6C7006F18AE /* SetupProfileViewController.swift in Sources */,
+				441020522430F8CE007CCE4C /* PeopleViewController.swift in Sources */,
+				4405F89C242154090032B690 /* ButtonFormView.swift in Sources */,
+				4410205A24349153007CCE4C /* Bundle-Decodable.swift in Sources */,
+				440C7D592421445D00B815FA /* UILabel + Extension.swift in Sources */,
+				447895742428E9BB006F18AE /* AddPhotoView.swift in Sources */,
+				440C7D5B2421467000B815FA /* UIImageView + Extension.swift in Sources */,
+				440C7D552421299300B815FA /* UIColor + Extension.swift in Sources */,
+				44ED0719242FDCDB00E37AB1 /* SegmentedControl + Extension.swift in Sources */,
+				4405F89E242169760032B690 /* StackView + Entension.swift in Sources */,
 				4454237E241EAE4C008C34FB /* SceneDelegate.swift in Sources */,
+				441C5578243F8F44001DF5EE /* SelfConfiguringCell.swift in Sources */,
+				441C5576243F406E001DF5EE /* WaitingChatCell.swift in Sources */,
+				4412BAB624254D5200D04723 /* SingUpViewController.swift in Sources */,
+				444744D624264775001E992C /* LoginViewController.swift in Sources */,
+				440A876D241F6A7D00A79A5E /* UIButton + Extension.swift in Sources */,
+				4410204F2430F620007CCE4C /* ListViewController.swift in Sources */,
+				4410204D2430F5AD007CCE4C /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		44542381241EAE4C008C34FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44542382241EAE4C008C34FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44542386241EAE51008C34FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,14 +419,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 777577VLG8;
 				INFOPLIST_FILE = MyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MyChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyChat.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +438,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 777577VLG8;
 				INFOPLIST_FILE = MyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MyChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyChat.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
